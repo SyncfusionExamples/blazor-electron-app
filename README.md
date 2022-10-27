@@ -2,8 +2,10 @@
 
 
 ## Prerequisites
-•	[NET Core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1) or [.NET 6.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
-•	[Node.js](https://nodejs.org/en/)
+
+* [NET Core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1) or [.NET 6.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+
+* [Node.js](https://nodejs.org/en/)
 
 ## Running the application
 
@@ -17,7 +19,7 @@ git clone https://github.com/SyncfusionExamples/blazor-electron-app
 
 ```
 cd blazor-electron-app
-cd BlazorElectronApp [for .NET 3.1 application] / cd BlazorElectronAppNET6 [for .NET 6.0 application]
+cd NET3.1 [for .NET 3.1 application] / cd NET6 [for .NET 6.0 application]
 dotnet electronize start
 ```
 
