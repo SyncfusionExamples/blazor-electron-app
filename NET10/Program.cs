@@ -46,11 +46,13 @@ if (!app.Environment.IsDevelopment())
 
 app.UseStaticFiles(); // Required for serving assets like _content/ (Syncfusion).
 app.UseStatusCodePagesWithReExecute("/not-found", createScopeForStatusCodePages: true);
-// app.UseHttpsRedirection(); <-- Do NOT enable for Electron app
+// Disable for Electron: it runs on http://localhost, and HTTPS redirection can cause redirect/certificate issues.
+// app.UseHttpsRedirection(); 
 
 app.UseAntiforgery();
 
 app.MapStaticAssets();
+// Map the root Razor Components app
 app.MapRazorComponents<BlazorApp.Components.App>()
     .AddInteractiveServerRenderMode();
 
