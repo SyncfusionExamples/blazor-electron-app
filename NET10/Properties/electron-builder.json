@@ -1,0 +1,19 @@
+{
+  "appId": "com.companyname.blazorelectronapp",
+  "productName": "Blazor Electron App",
+  "directories": {
+    "output": "dist-electron"
+  },
+  "files": [
+    "**/*"
+  ],
+  "win": {
+    "target": "nsis"
+  },
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage"
+  }
+}
