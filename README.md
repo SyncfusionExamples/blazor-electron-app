@@ -74,4 +74,4 @@ dotnet run
 ## References
 
 - [ElectronNET Guide](https://github.com/ElectronNET/Electron.NET)
-- [Electron Framework documentation](https://www.electronjs.org/docs)
+- [Electron framework documentation](https://www.electronjs.org/docs)
