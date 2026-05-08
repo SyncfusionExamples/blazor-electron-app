@@ -16,7 +16,6 @@ This project showcases how to build robust desktop applications by combining:
 - **Syncfusion UI components** - Pre-configured with Syncfusion Blazor Grid and Themes
 - **Cross-platform** - Build for Windows, macOS, and Linux (x64, ARM64)
 - **Modern Blazor** - Interactive server rendering and real-time component updates
-- **Sample pages** - Counter, Weather, Navigation, and Error handling examples
 
 ## Prerequisites
 
